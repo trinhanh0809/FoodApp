@@ -1,0 +1,37 @@
+name: foodapp
+description: Hatoyama - Nhà hàng nhật
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+  intl: ^0.17.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/logoFoodHatoyama.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/vectors/
+    - .env
+
+
+
